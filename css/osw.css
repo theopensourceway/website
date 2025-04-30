@@ -1,0 +1,59 @@
+/* The Open Source Way*/
+/* Site-wide stylesheet */
+
+/* Basic elements */
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 14pt;
+  color: black;
+}
+
+/* Layout elements */
+
+.wrapper {
+	max-width: 1060px;
+	padding: 10px 30px;
+	margin: 0 auto;
+}
+.content {
+	margin: 0 auto;
+}
+.logo {
+	max-width: 900px;
+	margin: 0 auto;
+}
+.logo img {
+  width: 100%;
+}
+.description {
+	font-size: 120%; 
+	line-height: 135%;
+	padding: 30px 10px;
+}
+.footer {
+	font-family: monospace;
+	font-size: 65%;
+	border-top: 10px solid #DECD87;
+	padding-top: 20px;
+	line-height: 135%;
+	margin: 40px 0;
+}
+
+/* Hyperlinks */
+
+a.button {
+	display: block;
+	display: flex;
+	flex-direction: column;
+	padding: 15px 25px;
+	background: white;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid #DECD87;
+	border-radius: 5px;
+}
+a.button:hover {
+	box-shadow: 0 4px 10px #ccc;
+}
